@@ -11,19 +11,29 @@ td {
   padding: 10px;
   
 }
+#tr01 {
+  background-color: yellow;
+}
+#tr2d1 {
+  background-color: red;
+}
+#tr5d4 {
+  background-color: green;
+  color: white;
+}
 </style>
 </head>
 <body>
 <table id="t01"; style="width: 50%">
 <caption>HTML Calculator</caption>
-  <tr>
-    <td colspan=4; style="text-align: right">0</td>
+  <tr id="tr01">
+    <td colspan=4; style="text-align: right">display()</td>
   </tr>
   <tr>
-    <td>C</td>
+    <td id="tr2d1">C</td>
     <td>/</td>
     <td>*</td>
-    <td>-</td>
+    <td style="width: 70px">-</td>
   </tr>
   <tr>
     <td>7</td>
@@ -40,7 +50,7 @@ td {
     <td>1</td>
     <td>2</td>
     <td>3</td>
-    <td rowspan=2>Enter</td>
+    <td id="tr5d4"; rowspan=2>Enter</td>
   </tr>
   <tr>
     <td colspan=2>0</td>
