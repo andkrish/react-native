@@ -2,14 +2,23 @@
 <html>
 <head>
 <style>
-table, th, td {
+table, td {
   border: 1px solid black;
-  border-collapse: collapse;
+  border-spacing: 5px;
+}
+td {
+  text-align: center;
+  padding: 10px;
+  
 }
 </style>
 </head>
 <body>
 <table id="t01"; style="width: 50%">
+<caption>HTML Calculator</caption>
+  <tr>
+    <td colspan=4; style="text-align: right">0</td>
+  </tr>
   <tr>
     <td>C</td>
     <td>/</td>
@@ -36,7 +45,6 @@ table, th, td {
   <tr>
     <td colspan=2>0</td>
     <td>.</td>
-    <td>=</td>
   </tr>
 </table>
 </body>
